@@ -1,0 +1,10 @@
+.image-product {
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #fff;
+    height: 554px;
+    padding: 25px 50px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin-right: 157px;
+}
