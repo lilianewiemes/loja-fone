@@ -61,3 +61,32 @@
     text-decoration: none;
     color: inherit;
 }
+
+@media (max-width: 1105px) {
+    .product-informations {
+        width: 50%;
+        min-width: 655px;
+        margin: 0 auto 60px;
+    }
+
+    .product-title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .product-item.-star {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .product-item.-number {
+        padding-top: 2px;
+    }
+}
+
+@media (max-width: 720px) {
+    .product-informations {
+        width: 90%;
+        min-width: auto;
+    }
+}

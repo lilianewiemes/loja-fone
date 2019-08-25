@@ -9,3 +9,23 @@
     position: absolute;
     transform: translateY(98px);
 }
+
+@media (max-width: 1225px) {
+    .wrap-product {
+        width: 465px;
+    }
+}
+
+@media (max-width: 1105px) {
+    .wrap-product {
+        width: 100%;
+    }
+
+    .wrap-product > .buttons {
+        position: static;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        transform: none;
+    }
+}
