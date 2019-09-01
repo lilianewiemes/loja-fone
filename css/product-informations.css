@@ -25,12 +25,36 @@
     transform: scale(1.2);
 }
 
+.product-informations .star {
+    display: inline-block;
+}
+
+.product-informations .star.-active > .icon {
+    display: none;
+}
+
+.product-informations .star.-active > .-active {
+    display: block;
+}
+
 .product-item.-star {
     margin-bottom: 10px;
 }
 
 .product-item.-star .icon {
     cursor: pointer;
+}
+
+.product-item.-active .icon {
+    display: none;
+}
+
+.product-item .icon.-active {
+    display: none;
+}
+
+.product-item.-active .icon.-active {
+    display: block;
 }
 
 .product-item.-info {

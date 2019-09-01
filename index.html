@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/container.css">
@@ -24,7 +24,7 @@
                 <input class="links search" type="search" placeholder="Buscar">
                 <a class="links" href="">Produtos</a>
                 <a class="links" href="">Serviços</a>
-                <a class="links" href="">Carrinhos (10) </a>
+                <a class="links -cart" href="">Carrinhos (0) </a>
             </nav>
         </header>
 
@@ -35,13 +35,33 @@
         <section class="wrap-product">
             <dl class="product-informations">
                 <dt class="product-title">Fone top, feliz e caro</dt>
-                <dd class="product-item -heart"><img class="icon" src="img/heart-regular.svg" alt="like"></dd>
+                <dd class="product-item -heart">
+                    <img class="icon" src="img/heart-regular.svg" alt="like">
+                    <img class="icon -active" src="img/heart-solid.svg" alt="like">
+                </dd>
                 <dd class="product-item -star">
-                    <img class="icon" src="img/star-solid.svg" alt="Estrela">
-                    <img class="icon" src="img/star-solid.svg" alt="Estrela">
-                    <img class="icon" src="img/star-solid.svg" alt="Estrela">
-                    <img class="icon" src="img/star-solid.svg" alt="Estrela">
-                    <img class="icon" src="img/star-regular.svg" alt="Estrela">
+                    <ol>
+                        <li class="star">
+                            <img class="icon" src="img/star-regular.svg" alt="Estrela">
+                            <img class="icon -active" src="img/star-solid.svg" alt="Estrela">
+                        </li>
+                        <li class="star">
+                            <img class="icon" src="img/star-regular.svg" alt="Estrela">
+                            <img class="icon -active" src="img/star-solid.svg" alt="Estrela">
+                        </li>
+                        <li class="star">
+                            <img class="icon" src="img/star-regular.svg" alt="Estrela">
+                            <img class="icon -active" src="img/star-solid.svg" alt="Estrela">
+                        </li>
+                        <li class="star">
+                            <img class="icon" src="img/star-regular.svg" alt="Estrela">
+                            <img class="icon -active" src="img/star-solid.svg" alt="Estrela">
+                        </li>
+                        <li class="star">
+                            <img class="icon" src="img/star-regular.svg" alt="Estrela">
+                            <img class="icon -active" src="img/star-solid.svg" alt="Estrela">
+                        </li>
+                    </ol>
                 </dd>
                 <dd class="product-item -number">4.0 (97)</dd>
                 <dd class="product-item -info"><strong class="contrast">Frete</strong> C$ 108</dd>
@@ -57,6 +77,9 @@
             </div>
         </section>
     </div>
+
+    <script src="js/home.js"></script>
+    <script src="js/product-informations.js"></script>
 </body>
 
 </html>
