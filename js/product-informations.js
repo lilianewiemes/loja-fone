@@ -1,12 +1,23 @@
 const heart = document.querySelector('.-heart')
 const stars = document.querySelectorAll('.star')
 
-heart.addEventListener('click', handleClick)
+heart.addEventListener('click', handleClickHeart)
 
-stars.forEach((star) => {
-    star.addEventListener('click', handleClick)
+stars.forEach(function (star, key) {
+    star.addEventListener('click', function () {
+        handleClickStar(key)
+    })
 })
 
-function handleClick() {
+function handleClickStar(index) {
+    stars.forEach(function (star, key) {
+        star.classList.remove('-active')
+        if (key <= index) {
+            star.classList.add('-active')
+        }
+    })
+}
+
+function handleClickHeart() {
     this.classList.toggle('-active')
 }
