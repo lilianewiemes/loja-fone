@@ -106,11 +106,22 @@
     .product-item.-number {
         padding-top: 2px;
     }
+
+    .product-item.-heart {
+        transform: none;
+        left: auto;
+    }
 }
 
 @media (max-width: 720px) {
     .product-informations {
         width: 90%;
         min-width: auto;
+    }
+}
+
+@media (max-width: 475px) {
+    .product-item.-heart {
+        position: static;
     }
 }
