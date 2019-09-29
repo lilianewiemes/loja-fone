@@ -28,22 +28,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navigation .search {
-    background-color: transparent;
-    color: inherit;
-    border: none;
-    border-bottom: 1px solid #fff;
-    width: 350px;
-    padding: 7px;
-    vertical-align: bottom;
-    font-size: 20px;
-}
-
-.navigation .search::placeholder {
-    color: #fff;
-    font-size: 20px;
-}
-
 .header .links:after {
     content: "";
     height: 2px;
@@ -82,10 +66,6 @@
     .header {
         padding-left: 30px;
         padding-right: 30px;
-    }
-
-    .navigation .search {
-        display: none;
     }
 }
 

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/container.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/input-search.css">
     <link rel="stylesheet" href="css/image-product.css">
     <link rel="stylesheet" href="css/wrap-product.css">
     <link rel="stylesheet" href="css/product-informations.css">
@@ -21,7 +22,11 @@
             <h1 class="title">LOGO</h1>
 
             <nav class="navigation">
-                <input class="links search" type="search" placeholder="Buscar">
+                <form class="input-search">
+                    <input class="search-content" type="search" placeholder="Buscar"><!--
+                    --><input class="icon -open -active" type="image" src="img/search-solid.svg"><!--
+                    --><input class="icon -close" type="image" src="img/close-solid.svg">
+                </form>
                 <a class="links" href="">Produtos</a>
                 <a class="links" href="">Serviços</a>
                 <a class="links -cart" href="">Carrinhos (0) </a>
@@ -79,6 +84,7 @@
     </div>
 
     <script src="js/home.js"></script>
+    <script src="js/input-search.js"></script>
     <script src="js/product-informations.js"></script>
 </body>
 
