@@ -27,9 +27,12 @@
                     --><input class="icon -open -active" type="image" src="img/search-solid.svg"><!--
                     --><input class="icon -close" type="image" src="img/close-solid.svg">
                 </form>
-                <a class="links" href="">Produtos</a>
-                <a class="links" href="">Serviços</a>
-                <a class="links -cart" href="">Carrinhos (0) </a>
+                <ul id="menu" class="menu-list">
+                    <li class="item -menu"><a class="menu" href="#menu">Menu</a></li>
+                    <li class="item"><a class="links" href="">Produtos</a></li>
+                    <li class="item"><a class="links" href="">Serviços</a></li>
+                    <li class="item -last"><a class="links -cart" href="">Carrinhos (0) </a></li>
+                </ul>
             </nav>
         </header>
 
@@ -83,6 +86,7 @@
         </section>
     </div>
 
+    <script src="js/header.js"></script>
     <script src="js/home.js"></script>
     <script src="js/input-search.js"></script>
     <script src="js/product-informations.js"></script>
